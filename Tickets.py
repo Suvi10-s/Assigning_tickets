@@ -6,7 +6,6 @@ def assign_tickets(ticket_id,title,user_email):
     else:
         print('Ticket already assigned')
     return
-print(tickets)
 
 def remove_tickets(ticket_id):
     if ticket_id in tickets:
@@ -22,8 +21,7 @@ def update_ticket_status(ticket_id,statusupdation):
     else:
         print('ticket not found')
     return
+
+assign_tickets(101,'suvi','suvi@gmail')
 print(tickets)
-
-
-
 
