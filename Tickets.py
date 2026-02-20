@@ -5,14 +5,12 @@ def assign_tickets(ticket_id,title,user_email):
         print('Ticket assigned')
     else:
         print('Ticket already assigned')
-    return
 
 def remove_tickets(ticket_id):
     if ticket_id in tickets:
-        del[tickets[ticket_id]]
+        del tickets[ticket_id]
     else:
         print('ticket not found')
-    return
 
 def update_ticket_status(ticket_id,statusupdation):
     if ticket_id in tickets:
@@ -20,7 +18,6 @@ def update_ticket_status(ticket_id,statusupdation):
         print('status changed')
     else:
         print('ticket not found')
-    return
 
 assign_tickets(101,'suvi','suvi@gmail')
 print(tickets)
