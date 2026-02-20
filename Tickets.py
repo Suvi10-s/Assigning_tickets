@@ -1,3 +1,9 @@
+# Write a function called assign_ticket - ticket_id, title, user_email
+# Takes a unique ticket_id, a title, and an user_email .
+# 1. assign_ticket
+# 2. update_ticket_status
+# 3. Remove a Ticket
+
 tickets= {}
 def assign_tickets(ticket_id,title,user_email):
     if ticket_id not in tickets:
